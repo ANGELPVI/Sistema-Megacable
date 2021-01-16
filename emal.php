@@ -10,14 +10,14 @@ if (isset($_POST['asunto']) && !empty($_POST['asunto']) && isset($_POST['mensaje
 	$mesa = $_POST['mensaje'];//el masaje que se envia.
 	$nombre=$_POST['nombre'];//el nombre que lo envá.
 
-	mail($destino, $asu, $mesa, $desde);//méto mail que nos permite mandar correos electronicos. 
+	mail($destino, $asu, $mesa, $desde);//método mail que nos permite mandar correos electronicos. 
 	header("location:envio.php?no=$nombre && mensaje=Mensaje enviado");//funcion que nos redirige a la pagina envio.php y enviando variables por de tipo GET.
 
 	
 }else{
 	//mensaje de error de envio de correo
 	echo "<div> 
-		<p>error al enviar su correo, verifique su coneción a internet</p>
+		<p>error al enviar su correo, verifique su conexión a internet</p>
 	</div>";
 }
 

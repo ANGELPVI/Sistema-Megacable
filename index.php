@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login</title>
+	
 	<link rel="stylesheet" type="text/css" href="stiloindex.css"><!--llamada del archivo stiloindex.css.  -->
 	<script type="text/javascript">
 		function quitar () {//función que nos permite controlar el estado de la ventana emergente con el mesaje de "contaseña incorrecta"
@@ -14,7 +15,6 @@
 <body>
 	<header>
 		<center><img src="descarga.png"></center>
-		<a id="re" href="resgistro.php"><button>Registrate</button></a>
 	</header>
 	<section>
 
@@ -24,9 +24,7 @@
 			<input type="number" name="usuarios" placeholder="Matrícula" required/><!--Campo de texto para que el usuario ingrese su información.  -->
 			<input type="password" name="con" placeholder="Contraseña" required/><!--Campo de password para que el usuario ingrese su conraseña.  -->
 			<input id="entrar" type="submit" value="Iniciar"/><!--Botón de tipo submit, que nos permite enviar los datos a un archivo php. -->
-			<p>				
-				
-			</p>						
+			<a id="re" href="resgistro.php">Registrate</a>						
 		</form>
 		
 	</section>

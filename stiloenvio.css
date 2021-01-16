@@ -25,10 +25,10 @@ form{/* bloque de diseño que le da color, anchura, bordes redondos y sombra al 
 	padding: 10px 10px;
 	margin: 5px 0px 10px 75px;
 	margin-top: 15px;
-	border: 2px solid #333;
-	border-radius: 20px;
-	-moz-border-radius:20px;
-	-webkit-border-radius:20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 form textarea{/* bloque de diseño que le da color, anchura, bordes redondos y sombra al textarea del formulario.*/
 	max-width: 320px;
@@ -107,7 +107,7 @@ ul ol{/*Bloque de diseño de la lista de opciones*/
 	text-decoration: none;
 	padding: 0px 10px;
 	margin-left: 92%;
-	margin-top: -120px;
+	margin-top: -100px;
 	display: block;
 }
 .nav > li{/*Bloque de diseño de la lista de las opciones que tiene la lista*/
@@ -121,6 +121,7 @@ ul ol{/*Bloque de diseño de la lista de opciones*/
 
 .nav li:hover > ul{/*Bloque de diseño de la lista de las opciones que tiene la lista*/
 	display: block;
+	padding-top: 15px;
 }
 .nav li a:hover{/* subclase hover que permite cambiar de color al pasar por la lista de opciones. */
 	background: #808080;
