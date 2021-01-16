@@ -1,0 +1,243 @@
+*{/* bloque de diseño que nos quita los margenes de la página.*/
+	margin: 0px;
+	padding: 0px;
+}
+body{/* bloque de diseño que le da color al cuerpo de la página.*/
+	background:#289FE3;
+	background-position: center;
+}
+
+#principal{
+	background-color: rgba(0, 0, 0, .5);
+	margin-top: 50px;
+	height: 300px;
+
+	
+
+}
+img{/*bloque de diseño que le da color, anchura, bordes redondos y sombra a las imagen.*/
+	width: 80px;
+	height: 55px;
+}
+table{/*boloque de diseño de la tabla donde está la información del usuario*/
+	margin: 60px auto;
+	margin-top: 28px;
+	
+}
+
+table tr td{/*bloque de diseño de las seldas donde está la infromacón del usuario*/
+	width: 400px;	
+	font-size: 20px;
+	font-style: oblique;
+	border-bottom-style: dotted;
+	color: #FFF;
+
+
+}
+#edinom{/*bloque de diseño de la etiqueta  a href para la edcion de información*/
+	position: absolute;
+	margin-left: 88%;
+	margin-top: -196px;
+	text-decoration: none;
+	font-size: 15px;
+	font-style: oblique;
+	color: blue;
+
+
+
+}
+#edicon{/*bloque de diseño de la etiqueta  a href para la edcion de información*/
+	position: absolute;
+	margin-left: 88%;
+	margin-top: -130px;
+	text-decoration: none;
+	font-size: 15px;
+	font-style: oblique;
+	color: blue;
+
+}
+
+#ediare{/*bloque de diseño de la etiqueta  a href para la edcion de información*/
+	position: absolute;
+	margin-left: 88%;
+	margin-top: -65px;
+	text-decoration: none;
+	font-size: 15px;
+	font-style: oblique;
+	color: blue;
+}
+span{/*bloque de diseño del titulo de la tabla*/
+	font-size: 30px;
+	font-style: oblique;
+	color: #FFF;
+
+}
+#se{/*bloque de diseño de campo de texto del formulario*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #c3c3c3;
+}
+#actual{/*bloque de diseño de campo de texto del formulario*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	top: 00px;
+	visibility: hidden;
+}
+#sec{/*bloque de diseño de campo de texto del formulario*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #c3c3c3;
+
+}
+#actualc{/*bloque de diseño de campo de texto del formulario*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	top: 00px;
+	visibility: hidden;
+
+}
+#sea{/*bloque de diseño de campo de texto del formulario*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #c3c3c3;
+
+}
+#actuala{/*bloque de diseño del estado de la actaulización*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	top: 00px;
+	visibility: hidden;
+
+}
+div#cuadro{/*bloque de diseño del estado de la actaulización*/
+	position: absolute;
+	width: 200px;
+	background: #FFF;
+	
+
+
+}
+
+.negro{/*bloque de diseño de la ventana emergemte */
+	width: 200px;
+	height: 100px;
+	background: #FFF;
+}
+#pa{/*Bloque de diseño de la falla de actaulización*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #c3c3c3;
+
+
+}
+p{/*Bloque de diseño del parrafo del estado de actaulizacion.*/
+	font-size: 20px;
+	font-style: oblique;
+	color: #4a4a4a;
+	margin-top: 40px;
+	text-align: center;
+}
+form{/* bloque de diseño que le da color, anchura, bordes redondos y sombra al formulario de actaulizacion.*/
+	width: 200px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20%;
+
+}
+form input{/* bloque de diseño que le da color, anchura, bordes redondos y sombra a los cuadro de texto del formulario.*/
+	width: 180px;
+	height: 20px;
+	margin-top: 10px;
+}
+/*---------------------------------------*/
+div#mensaje{/*bloque de diseño del cuandro de dialogo */
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	margin: 100px auto;
+	margin-left: 39%;
+	margin-top: 200px;
+	background: #FFF;
+}
+
+#cerrarnom{/*bloque de diseño de cerrar formulario de actualizacón*/
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 85%;
+	color:red;
+	text-decoration: none;
+}
+#cerrarcon{/*bloque de diseño de cerrar formulario de actualizacón*/
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 85%;
+	color:red;
+	text-decoration: none;
+
+}
+#cerrararea{/*bloque de diseño de cerrar formulario de actualizacón*/
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 85%;
+	color:red;
+	text-decoration: none;
+
+}
+button{/*bloque de diseño que le da color, anchura, bordes redondos y sombra al botón de inicio.*/
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	margin-top: -333px;
+	box-shadow: 0px 2px 0px #000;
+	-moz-box-shadow: 0px 2px 0px #000;
+	-webkit-box-shadow: 0px 2px 0px #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+	background:#289FE3;
+	color: #FFF;
+	font-size: 15px;
+	font-style: normal;
+
+
+}
+button:hover{/* subclase hover que permite cambiar de color al botón cuando se pasa el cursor. */
+	background: #3a3a3a; 
+}
+
+	
+	
